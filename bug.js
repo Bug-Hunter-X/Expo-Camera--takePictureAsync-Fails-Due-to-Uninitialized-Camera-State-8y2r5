@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API and attempting to access the `takePictureAsync` method before the camera has finished loading.  This usually manifests as an error indicating that the camera is unavailable or undefined. It's often overlooked because the camera preview might appear correctly, but the internal state might not be fully initialized.
